@@ -32,8 +32,8 @@ public class SecondActivity extends AppCompatActivity {
         bt4 = (Button)findViewById(R.id.divbutton);
 
         Bundle b1 = getIntent().getExtras();
-        String s1 = b1.getString("user");
-        String s2 = b1.getString("user2");
+        String s1 = b1.getString("number1");
+        String s2 = b1.getString("number2");
 
         e3.setText(s1);
         e4.setText(s2);
